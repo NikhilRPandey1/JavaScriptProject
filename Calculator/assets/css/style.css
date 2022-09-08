@@ -1,0 +1,39 @@
+.container {
+  margin-top: 100px;
+  width: 100%;
+}
+
+.col-lg-6 {
+  border: 5px solid #eeeeed;
+  padding: 20px;
+  box-shadow: 20px 30px 34px black;
+  margin-left: auto;
+  margin-right: auto;
+  width:40%;
+}
+
+#inputField {
+  height: 70px;
+  border: 4px solid blue;
+  width: 98%;
+  padding: 2px;
+}
+
+.btn.btn-dark {
+  width: 130px;
+  height: 40px;
+}
+
+.btn.btn-dark:hover {
+    width: 130px;
+    height: 40px;
+    background-color:green ;
+  }
+
+.row {
+  display: inline-flex;
+  grid-column-end: 3;
+  grid-column-start: 1;
+  gap: 30px;
+  padding: 3px;
+}
